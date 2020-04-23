@@ -13,51 +13,18 @@ div
   div.container
     div.thumnail
       p.background-filter
-        img(src="~/assets/asahi.jpg").background
+        img(src="/img/moss_01.jpg").background
       h1 works
     div.contents
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title DesignCaravan Webサイト
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
+      div(v-for="i in data").contents-list
+        nuxt-link(:to="i.abstract.link")
+          img(:src="i.abstract.thum")
+        p.title {{ i.abstract.title }}
+        p.category {{ i.abstract.category }}
+      div.footer
+        p ©2020 RyutaGoto
       
-
+      
   //div.container
     div
       logo
@@ -70,10 +37,17 @@ div
 
 <script>
 import Logo from '~/components/Logo.vue'
+import worksData from '~/assets/json/works.json'
 
 export default {
   components: {
     Logo
+  },
+
+  data(){
+    return{
+      data: worksData
+    }
   }
 }
 </script>
@@ -98,7 +72,7 @@ export default {
       opacity: 0.8;
       width: 100%;
       height: 100%;
-      object-fit: none;
+      object-fit: cover;
       margin-bottom: -2px;
     h1
       position: absolute;
@@ -143,6 +117,18 @@ export default {
       top: 15%;
       right: -16%;
       transform: rotate(90deg);
+  
+  .footer
+    height: 64px;
+    width: 100%;
+    background-color: #a5926f;
+    //background-color: #e6dbc7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
 
 
 //@media screen and (min-width: 701px); //複数列

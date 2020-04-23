@@ -13,38 +13,30 @@ div
   div.container
     div.thumnail
       p.background-filter
-        img(:src="data.caravan.abstract.thum").background
+        img(:src="data.abstract.thum").background
       h1 works
     div.contents
       div.abstract
-        h2 {{ data.caravan.abstract.title }}
+        h2 {{ data.abstract.title }}
         div.table
           div.row
             p.item category
-            p.substance {{ data.caravan.abstract.category }}
+            p.substance {{ data.abstract.category }}
           div.row
             p.item period
-            p.substance {{ data.caravan.abstract.period }}
+            p.substance {{ data.abstract.period }}
           div.row
             p.item tools
-            p.substance {{ data.caravan.abstract.tools }}
-        h3 {{ data.caravan.abstract.detail }}
+            p.substance {{ data.abstract.tools }}
+        h3 {{ data.abstract.detail }}
       div.process
         h2 process
-        div(v-for="(i, index) in data.caravan.process")
+        div(v-for="(i, index) in data.process").item
           ProcessItem(:title="i.subtitle", :imgSrc="i.img", :detail="i.detail", :number="index+1")
-        
-        //div.js-accordion
-          button(type="button" :class="{'_state-open':isOpened}" @click="accordionToggle()").js-accordion--trigger アコーディオン
-          div(:class="{'_state-open':isOpened}" v-if="isOpened").js-accordion--target
-            div.js-according--body
-              p アコーディオンの中身
-              p アコーディオンの中身
-              p アコーディオンの中身
-        
-     
+      div.footer
+        p ©2020 RyutaGoto
 
-  
+
 </template>
 
 <script>
@@ -59,9 +51,8 @@ export default {
     ProcessItem
   },
 
-  data(){
+  data(params){
     return{
-      data: worksData,
       isOpened: false
     };
   },
@@ -70,6 +61,12 @@ export default {
     accordionToggle: function(){
       this.isOpened = !this.isOpened;
     },
+  },
+
+  asyncData: async function({params}){
+    return {
+      data: worksData[params.detail]
+    };
   }
 
 }
@@ -107,7 +104,6 @@ export default {
       text-shadow: 0 3px 4px #222;
 
   .contents
-    padding: 48px 24px 0 24px;
     position: absolute;
     top: 32vh;
     left: 50%;
@@ -116,12 +112,13 @@ export default {
     flex-direction: column;
     //justify-content: center;
     //align-items: center;
-    background-color: #fff;
+    background-color: #f0f0f0;
     width: 100%;
     box-shadow: 0 -5px 6px #707070;
     //z-index: 200;
 
   .abstract
+    padding: 48px 24px 0 24px;
     h2
       font-size: 24px;
       color: #2d642f;
@@ -148,12 +145,27 @@ export default {
     flex-basis: 75%;
   
   .process
-    margin-top: 80px;
+    padding: 0px 24px 0 24px;
+    margin: 80px 0 48px 0;
     h2
       text-align: center;
       margin-bottom: 24px;
       color: #2d642f;
+  .item:last-child
+  //.num:before
+    color: blue !important;
 
+  .footer
+    height: 64px;
+    width: 100%;
+    background-color: #a5926f;
+    //background-color: #e6dbc7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
   
   
     

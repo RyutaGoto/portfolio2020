@@ -12,7 +12,7 @@ div
           nuxt-link(to="/about")#nav-item about
   div.container
     p.background-filter
-      img(src="~/assets/top1.jpg").background
+      img(src="/img/moss_03.jpg").background
     div.symbol
       img(src="~/assets/logo_clear(500×500).png").logo
       h1.title RyutaGoto's Portfolio
@@ -45,7 +45,7 @@ export default {
       opacity: 0.8;
       width: 100%;
       height: 100%;
-      object-fit: none;
+      object-fit: cover;
   .symbol
     display: flex;
     flex-direction: column;

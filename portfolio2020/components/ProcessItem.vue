@@ -62,19 +62,40 @@ export default {
   .wrapper
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    //height: auto;
 
   .num
+    margin: 22px 16px 0 0;
     flex-basis: 10%;
     position: relative;
     z-index: 10;
-    //text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-weight: 700;
+    //&:before
+      z-index: -2;
+      position: absolute;
+      display: block;
+      height: 60px;
+      width: 4px;
+      background: red;
+      margin-right: 6px;
+    //&:before
+      z-index: -10;
+      position: absolute;
+      top: 0;
+      content: "";
+      display: block;
+      width: 4px;
+      height: 400px;
+      background: red;
     &:after
       z-index: -1;
       position: absolute;
-      top: -35%;
-      //left: -30%;
       content: "";
       display: block;
       width: 36px;
@@ -134,7 +155,6 @@ export default {
         &:after
           transform: rotateX(180deg);
           margin-top: -10px;
-        
       
       &:hover
         background-color: #2d642f;
@@ -144,8 +164,21 @@ export default {
     &--target
       overflow: hidden;
       transition: 0.4s ease-in-out;
+      //display: flex;
+      //position: relative;
+      //&:before
+          z-index: -10;
+          position: absolute;
+          top: 0;
+          left: 0%;
+          content: "";
+          display: block;
+          width: 4px;
+          height: 60px;
+          background: red;
     
     &--body
+      position: relative;
       p
         color: #5a5a5a;
         font-size: 14px;      
@@ -154,7 +187,17 @@ export default {
         width: 100%;
         height: auto;
         padding: 16px 16px 0 16px;
-      
+      //&:after
+        z-index: -10;
+        position: absolute;
+        top: 0;
+        left: -10%;
+        content: "";
+        display: block;
+        width: 4px;
+        height: 60px;
+        background: red;
+
     &-enter-active
       animation-duration: 0.5s;
       animation-fill-mode: both;

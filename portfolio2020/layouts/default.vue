@@ -12,6 +12,7 @@
           nuxt-link(to="/member")#nav-item member
     div.body
       nuxt
+      
 
 </template>
 
@@ -132,6 +133,10 @@ html
 
 /*中身*/
 #nav-content
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //align-items: center;
   overflow: auto;
   position: fixed;
   top: 0;
@@ -157,6 +162,15 @@ html
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);/*中身を表示*/
   box-shadow: 6px 0 25px rgba(0,0,0,.15);
+
+
+#nav-item
+  text-align: right;
+  margin: 16px 20% 16px 0;
+  font-size: 40px;
+  font-weight: 900;
+  color: #333;
+  text-decoration: none;
 
 
 

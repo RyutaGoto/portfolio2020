@@ -13,52 +13,45 @@ div
   div.container
     div.thumnail
       p.background-filter
-        img(src="~/assets/asahi.jpg").background
+        img(src="/img/moss_02.jpg").background
       h1 about
     div.contents
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title DesignCaravan Webサイト
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      div.contents-list
-        img(src="~/assets/dummy.jpg")
-        p.title 田淵
-        p.category Web制作
-      
+      img(src="/img/profile.jpg").profile
+      div.name
+        p 後藤隆太 | RyutaGoto
+      div.category
+        p designer
+        p 1997
+      div.introduction
+        p 1997年宮城県生まれ。幼少期をアメリカで過ごす。帰国後、小中学校を経て地元の仙台高等専門学校に入学。在学中に抱いたデザイン領域に対する興味から卒業後は公立はこだて未来大学に編入。現在は同大学の4年生として在籍。
+      div.subtitle.affiliation
+        h2 所属
+        p 公立はこだて未来大学　情報デザインコース4年生
+        p PCN函館　代表
+      div.subtitle.ability
+        h2 私ができること
+        p Adobe Illustrator
+        p Adobe Photoshop
+        p Adobe Xd
+        p HTML/CSS
+        p Vue.js
+        p Arduino
+      div.subtitle.idea
+        h2 思想みたいなもの
+        p 私はものごとに対して「なぜ」「どうして」を何よりも重要視します。「なぜこれはこの形でなくてはならないのか」「これはどうしてこの配置なのか」ものごとには必ず理由があり、形や色や機能はそれに従っているにすぎない。常に本質を見極める努力を行い、ものづくりをする上での自分の指針としています。
+      div.subtitle.hobby
+        h2 好きなモノ
+        p 苔盆栽、食に関すること全般、アイドルマスター、電子工作、フォント、インク
+      div.contact
+        a(href="mailto:b1016230@fun.ac.jp" target="_blank")
+          img(src="/img/contact_mail.png").mail
+        a(href="https://www.facebook.com/gThunderbird" target="_blank")
+          img(src="/img/contact_fb.png").fb
+        a(href="https://suzuri.jp/RickGoto" target="_blank")
+          img(src="/img/contact_suzuri.png").suzuri
+      div.footer
+        p ©2020 RyutaGoto
 
-  
 </template>
 
 <script>
@@ -91,7 +84,7 @@ export default {
       opacity: 0.8;
       width: 100%;
       height: 100%;
-      object-fit: none;
+      object-fit: cover;
       margin-bottom: -2px;
     h1
       position: absolute;
@@ -117,25 +110,94 @@ export default {
     box-shadow: 0 -5px 6px #707070;
     //z-index: 200;
 
-  .contents-list
-    position: relative
-    margin-bottom: 64px;
-    img
-      width: 248px;
-      height: 248px;
+  .profile
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    margin-bottom: 24px;
+
+  .name
+    font-size: 28px;
+    font-weight: 500;
+    color: #317033;
+  
+  .category
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #747474;
+    margin: 16px 0;
+    p
+      margin: -2px;
+
+  .introduction
+    margin: 0 10% 24px 10%;
+
+  .subtitle
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2
+      padding: 0 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      font-size: 22px;
+      color: #317033;
+      font-weight: 400;
+      align-text: center;
+      margin-bottom: 16px;
+      background-color: #fff;
+      &:before
+        z-index: -10;
+        position: absolute;
+        //top: 50%;
+        display: block;
+        content: "";
+        width: 300px;
+        height: 2px;
+        background-color: #707070;
+    p
+      color: #5A5A5A;
+      font-size: 15px;
+    
+  .idea, .hobby
+    p
+      margin: 0 10%;
+
+  .contact
+    margin: 40px 0;
+    width: 80%;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    .mail
+      height: 28px;
+      width: auto;
       object-fit: cover;
-    .title
-      font-size: 18px;
-      font-weight: 700;
-      color: #555;
-    .category
-      font-size: 14px;
-      font-weight: 500;
-      color: #777;
-      position: absolute;
-      top: 15%;
-      right: -16%;
-      transform: rotate(90deg);
+    .fb
+      height: 30px;
+      width: auto;
+      object-fit: cover;      
+    .suzuri
+      height: 32px;
+      width: auto;
+      object-fit: cover;
+      
+  .footer
+    height: 64px;
+    width: 100%;
+    background-color: #a5926f;
+    //background-color: #e6dbc7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
 
 
 //@media screen and (min-width: 701px); //複数列
