@@ -200,7 +200,137 @@ export default {
     font-weight: 700;
 
 
-//@media screen and (min-width: 701px); //複数列
+@media screen and (min-width: 701px) //複数列
+  .container
+    width: 100%;
+    height: auto;
+    position: relative;
 
+  .thumnail
+    position: fixed;
+    width: 100%;
+    height: 35vh;
+    .background-filter
+      margin-block-start: 0;
+      margin-block-end: 0;
+      background-color: #222;
+    .background
+      opacity: 0.8;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-bottom: -2px;
+    h1
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      font-weight: 500;
+      font-size: 32px;
+      color: #fff;
+      text-shadow: 0 3px 4px #222;
+
+  .contents
+    padding-top: 32px;
+    position: absolute;
+    top: 32vh;
+    left: 50%;
+    transform : translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 -5px 6px #707070;
+    //z-index: 200;
+
+  .profile
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    margin-bottom: 24px;
+
+  .name
+    font-size: 28px;
+    font-weight: 500;
+    color: #317033;
+  
+  .category
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #747474;
+    margin: 16px 0;
+    p
+      margin: -2px;
+
+  .introduction
+    margin: 0 10% 24px 10%;
+
+  .subtitle
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2
+      padding: 0 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      font-size: 22px;
+      color: #317033;
+      font-weight: 400;
+      align-text: center;
+      margin-bottom: 16px;
+      background-color: #fff;
+      &:before
+        z-index: -10;
+        position: absolute;
+        //top: 50%;
+        display: block;
+        content: "";
+        width: 300px;
+        height: 2px;
+        background-color: #707070;
+    p
+      color: #5A5A5A;
+      font-size: 15px;
+    
+  .idea, .hobby
+    p
+      margin: 0 10%;
+
+  .contact
+    margin: 40px 0;
+    width: 80%;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    .mail
+      height: 28px;
+      width: auto;
+      object-fit: cover;
+    .fb
+      height: 30px;
+      width: auto;
+      object-fit: cover;      
+    .suzuri
+      height: 32px;
+      width: auto;
+      object-fit: cover;
+      
+  .footer
+    height: 64px;
+    width: 100%;
+    background-color: #a5926f;
+    //background-color: #e6dbc7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
 
 </style>

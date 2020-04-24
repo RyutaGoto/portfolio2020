@@ -175,7 +175,99 @@ export default {
     
 
 
-//@media screen and (min-width: 701px); //複数列
+@media screen and (min-width: 701px) //複数列
+  .container
+    width: 100%;
+    height: auto;
+    position: relative;
 
+  .thumnail
+    position: fixed;
+    width: 100%;
+    height: 35vh;
+    .background-filter
+      margin-block-start: 0;
+      margin-block-end: 0;
+      background-color: #222;
+    .background
+      opacity: 0.8;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-bottom: -2px;
+    h1
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      font-weight: 500;
+      font-size: 32px;
+      color: #fff;
+      text-shadow: 0 3px 4px #222;
+
+  .contents
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform : translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 100%;
+    box-shadow: 0 -5px 6px #707070;
+    //z-index: 200;
+
+  .abstract
+    max-width: 800px;
+    padding-top: 48px;
+    h2
+      font-size: 32px;
+      color: #2d642f;
+      font-weight: 700;
+    h3
+      font-size: 20px;
+      color: #5a5a5a;
+      font-weight: 400;
+
+  .table
+    margin: 16px 0 48px 0;
+
+  .row
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    color: #848484;
+    margin-bottom: 8px;
+
+  .item
+    flex-basis: 25%;
+
+  .substance
+    flex-basis: 75%;
+  
+  .process
+    width: 700px;
+    padding: 0px 24px 0 24px;
+    margin: 80px 0 48px 0;
+    h2
+      text-align: center;
+      margin-bottom: 24px;
+      color: #2d642f;
+  .item:last-child
+  //.num:before
+    color: blue !important;
+
+  .footer
+    height: 64px;
+    width: 100%;
+    background-color: #a5926f;
+    //background-color: #e6dbc7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
 
 </style>
