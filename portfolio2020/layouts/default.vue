@@ -171,7 +171,27 @@ html
   font-weight: 900;
   color: #333;
   text-decoration: none;
+  
+@media screen and (min-width: 701px) //複数列
+  #nav-open
+    span, span:before, span:after
+      position: absolute;
+      height: 5px;/*線の太さ*/
+      width: 48px;/*長さ*/
+      border-radius: 3px;
+      background: #ddd;
+      display: block;
+      content: '';
+      cursor: pointer;
+      box-shadow: 0 6px 6px 0 #000;
 
+#nav-open
+  span:before
+    bottom: -15px;
+
+#nav-open
+  span:after
+    bottom: -30px;
 
 
 </style>

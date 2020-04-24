@@ -69,11 +69,13 @@ export default {
       margin-block-start: 0;
       margin-block-end: 0;
       background-color: #222;
+      height: 100%;
     .background
       opacity: 0.8;
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: 50% 50%;
       margin-bottom: -2px;
     h1
       position: absolute;
@@ -141,16 +143,18 @@ export default {
   .thumnail
     position: fixed;
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     .background-filter
       margin-block-start: 0;
       margin-block-end: 0;
       background-color: #222;
+      height: 100%;
     .background
       opacity: 0.8;
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: 50% 50%;
       margin-bottom: -2px;
     h1
       position: absolute;

@@ -80,11 +80,13 @@ export default {
       margin-block-start: 0;
       margin-block-end: 0;
       background-color: #222;
+      height: 100%;
     .background
       opacity: 0.8;
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: 50% 50%;
       margin-bottom: -2px;
     h1
       position: absolute;
@@ -209,21 +211,23 @@ export default {
   .thumnail
     position: fixed;
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     .background-filter
       margin-block-start: 0;
       margin-block-end: 0;
       background-color: #222;
+      height: 100%;
     .background
       opacity: 0.8;
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: 50% 50%;
       margin-bottom: -2px;
     h1
       position: absolute;
-      top: 50%;
-      left: 40%;
+      top: 60%;
+      left: 50%;
       font-weight: 500;
       font-size: 32px;
       color: #fff;
@@ -232,7 +236,7 @@ export default {
   .contents
     padding-top: 32px;
     position: absolute;
-    top: 32vh;
+    top: 50vh;
     left: 50%;
     transform : translate(-50%, 0);
     display: flex;
@@ -245,13 +249,13 @@ export default {
     //z-index: 200;
 
   .profile
-    width: 256px;
-    height: 256px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
     margin-bottom: 24px;
 
   .name
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 500;
     color: #317033;
   
@@ -264,12 +268,16 @@ export default {
     margin: 16px 0;
     p
       margin: -2px;
+      font-size: 18px;
 
   .introduction
-    margin: 0 10% 24px 10%;
+    margin: 40px 10% 40px 10%;
+    max-width: 700px;
+    p
+      font-size: 20px;
 
   .subtitle
-    margin: 40px 0;
+    margin: 64px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,7 +287,7 @@ export default {
       justify-content: center;
       align-items: center;
       position: relative;
-      font-size: 22px;
+      font-size: 24px;
       color: #317033;
       font-weight: 400;
       align-text: center;
@@ -295,15 +303,16 @@ export default {
         height: 2px;
         background-color: #707070;
     p
+      max-width: 700px;
       color: #5A5A5A;
-      font-size: 15px;
+      font-size: 20px;
     
   .idea, .hobby
     p
       margin: 0 10%;
 
   .contact
-    margin: 40px 0;
+    margin: 80px 0 40px 0;
     width: 80%;
     max-width: 350px;
     display: flex;

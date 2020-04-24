@@ -88,12 +88,14 @@ export default {
       margin-block-start: 0;
       margin-block-end: 0;
       background-color: #222;
+      height: 100%;
     .background
       opacity: 0.8;
       width: 100%;
       height: 100%;
-      object-fit: cover;
       margin-bottom: -2px;
+      object-fit: cover;
+      object-position: 50% 50%;
     h1
       position: absolute;
       top: 50%;
@@ -184,17 +186,19 @@ export default {
   .thumnail
     position: fixed;
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     .background-filter
       margin-block-start: 0;
       margin-block-end: 0;
       background-color: #222;
+      height: 100%;
     .background
       opacity: 0.8;
       width: 100%;
       height: 100%;
-      object-fit: cover;
       margin-bottom: -2px;
+      object-fit: cover;
+      object-position: 50% 50%;
     h1
       position: absolute;
       top: 60%;
@@ -219,7 +223,7 @@ export default {
     //z-index: 200;
 
   .abstract
-    max-width: 800px;
+    max-width: 700px;
     padding-top: 48px;
     h2
       font-size: 32px;
