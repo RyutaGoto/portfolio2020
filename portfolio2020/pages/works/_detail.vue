@@ -14,7 +14,6 @@ div
     div.thumnail
       p.background-filter
         img(:src="data.abstract.thum").background
-      h1 works
     div.contents
       div.abstract
         h2 {{ data.abstract.title }}
@@ -29,11 +28,14 @@ div
             p.item tools
             p.substance {{ data.abstract.tools }}
         h3 {{ data.abstract.detail }}
+        div.gallery
+          img(v-for="i in data.abstract.img" :src="i")
       div.process
         h2 process
         div(v-for="(i, index) in data.process").item
           ProcessItem(:title="i.subtitle", :imgSrc="i.img", :detail="i.detail", :number="index+1")
-      div.footer
+      Footer
+      //div.footer
         p ©2020 RyutaGoto
 
 
@@ -41,14 +43,16 @@ div
 
 <script>
 import Logo from '~/components/Logo.vue'
-import worksData from '~/assets/json/works.json'
 import ProcessItem from '~/components/ProcessItem.vue'
+import Footer from '~/components/Footer.vue'
+import worksData from '~/assets/json/works.json'
 
 
 export default {
   components: {
     Logo,
-    ProcessItem
+    ProcessItem,
+    Footer
   },
 
   data(params){
@@ -96,14 +100,6 @@ export default {
       margin-bottom: -2px;
       object-fit: cover;
       object-position: 50% 50%;
-    h1
-      position: absolute;
-      top: 50%;
-      left: 40%;
-      font-weight: 500;
-      font-size: 32px;
-      color: #fff;
-      text-shadow: 0 3px 4px #222;
 
   .contents
     position: absolute;
@@ -157,24 +153,6 @@ export default {
   //.num:before
     color: blue !important;
 
-  .footer
-    height: 64px;
-    width: 100%;
-    background-color: #a5926f;
-    //background-color: #e6dbc7;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
-  
-  
-    
-  
-
-  
-    
 
 
 @media screen and (min-width: 701px) //複数列
@@ -249,10 +227,20 @@ export default {
 
   .substance
     flex-basis: 75%;
+
+  .gallery
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //align-items: space-evenly;
+    img
+      margin: 16px 0;
+      width: 48%;
   
   .process
     width: 700px;
-    padding: 0px 24px 0 24px;
+    //padding: 0px 24px 0 24px;
     margin: 80px 0 48px 0;
     h2
       text-align: center;
@@ -261,17 +249,5 @@ export default {
   .item:last-child
   //.num:before
     color: blue !important;
-
-  .footer
-    height: 64px;
-    width: 100%;
-    background-color: #a5926f;
-    //background-color: #e6dbc7;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
 
 </style>

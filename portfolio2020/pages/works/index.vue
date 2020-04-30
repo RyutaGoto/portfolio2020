@@ -19,30 +19,31 @@ div
       div.content-list-wrap
         div(v-for="i in data").contents-list
           nuxt-link(:to="i.abstract.link")
-            img(:src="i.abstract.thum")
+            div.img-wrap
+              img(:src="i.abstract.thum")
           p.title {{ i.abstract.title }}
           p.category {{ i.abstract.category }}
-      div.footer
+      Footer
+      //div.footer
+        div.pc-menu
+          nuxt-link(to="/") top
+          p /
+          nuxt-link(to="/works") works
+          p /
+          nuxt-link(to="/about") about
         p ©2020 RyutaGoto
-      
-      
-  //div.container
-    div
-      logo
-      h1.title portfolioWeb制作 yeah
-      h2.subtitle My divine Nuxt.js project
-      div.links
-        a(href="https://nuxtjs.org/" target="_blank").button--green Documentation
-        a(href="https://github.com/nuxt/nuxt.js" target="_blank").button--grey GitHub
+
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Footer from '~/components/Footer.vue'
 import worksData from '~/assets/json/works.json'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Footer
   },
 
   data(){
@@ -94,12 +95,10 @@ export default {
     transform : translate(-50%, 0);
     display: flex;
     flex-direction: column;
-    //justify-content: center;
     align-items: center;
     background-color: #fff;
     width: 100%;
     box-shadow: 0 -5px 6px #707070;
-    //z-index: 200;
 
   .contents-list
     position: relative
@@ -125,7 +124,6 @@ export default {
     height: 64px;
     width: 100%;
     background-color: #a5926f;
-    //background-color: #e6dbc7;
     color: #fff;
     display: flex;
     align-items: center;
@@ -166,6 +164,9 @@ export default {
       text-shadow: 0 3px 4px #222;
   
   .contents
+    //display: flex;
+    //justify-content: center;
+    //flex-direction: column;
     position: absolute;
     top: 50vh;
     left: 50%;
@@ -180,15 +181,35 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    //align-content: space-around;
+    &:after
+      content: '';
+      display: block;
+      width: 30%;
+  
 
   .contents-list
-    position: relative
+    //position: relative
     margin: 0 24px 64px 24px;
-    img
+    .img-wrap
+      background: #111;
       width: 248px;
       height: 248px;
-      object-fit: cover;
+      overflow: hidden;
+      box-shadow: 0 3px 5px 0px #999;
+      img
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        transition-duration: .6s;
+      &:hover
+        img
+          opacity: .7;
+          transition: .6s;
     .title
+      margin-top: 8px;
       font-size: 18px;
       font-weight: 700;
       color: #555;
@@ -196,21 +217,7 @@ export default {
       font-size: 14px;
       font-weight: 500;
       color: #777;
-      position: absolute;
-      top: 15%;
-      right: -16%;
-      transform: rotate(90deg);
+    
   
-  .footer
-    height: 64px;
-    width: 100%;
-    background-color: #a5926f;
-    //background-color: #e6dbc7;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
-
+    
 </style>

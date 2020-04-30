@@ -65,14 +65,6 @@ html
 
 
 
-
-
-
-
-
-
-
-
 .nav
   position: fixed;
   z-index: 100;
@@ -101,7 +93,7 @@ html
   span, span:before, span:after
     position: absolute;
     height: 4px;/*線の太さ*/
-    width: 35px;/*長さ*/
+    width: 40px;/*長さ*/
     border-radius: 3px;
     background: #ddd;
     display: block;
@@ -110,11 +102,11 @@ html
 
 #nav-open
   span:before
-    bottom: -11px;
+    bottom: -10px;
 
 #nav-open
   span:after
-    bottom: -22px;
+    bottom: -20px;
 
 
 /*閉じる用の薄黒カバー*/
@@ -171,7 +163,13 @@ html
   font-weight: 900;
   color: #333;
   text-decoration: none;
-  
+
+
+
+
+
+
+
 @media screen and (min-width: 701px) //複数列
   #nav-open
     span, span:before, span:after
@@ -183,15 +181,14 @@ html
       display: block;
       content: '';
       cursor: pointer;
-      box-shadow: 0 6px 6px 0 #000;
+      box-shadow: 0 1px 4px 0 #5a5a5a;
 
-#nav-open
-  span:before
-    bottom: -15px;
+  #nav-open
+    span:before
+      bottom: -15px;
 
-#nav-open
-  span:after
-    bottom: -30px;
-
+  #nav-open
+    span:after
+      bottom: -30px;
 
 </style>

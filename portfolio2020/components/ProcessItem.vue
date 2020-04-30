@@ -228,13 +228,13 @@ export default {
 @media screen and (min-width: 701px) //複数列
   .wrapper
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
     //height: auto;
 
   .num
-    margin: 22px 16px 0 0;
+    margin: 22px 8px 0 -12px;
     flex-basis: 10%;
     position: relative;
     z-index: 10;
@@ -265,9 +265,9 @@ export default {
       position: absolute;
       content: "";
       display: block;
-      width: 36px;
-      height: 36px;
-      border-radius: 18px;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
       background: gray;
     
   .js-accordion
