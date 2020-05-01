@@ -71,15 +71,10 @@ export default {
     position: relative;
     width: 100vw;
     height: 100vh;
-    .background-filter
-      background-color: #222;
-    //.background
-      //opacity: 0.8;
-      width: 100%;
-      height: 100%;
-      object-fit: none;
+    
 
   .fadein
+    filter: brightness(80%);
     opacity: 1;
     transition: opacity 1.0s;
     width: 100%;
@@ -88,6 +83,7 @@ export default {
 
 
   .fadeout
+    filter: brightness(80%);
     opacity: 0;
     transition: opacity 1.0s;
     width: 100%;
@@ -142,9 +138,10 @@ export default {
     width: 100vw;
     height: 100vh;
     .background-filter
-      background-color: #222;
+      background-color: #999;
   
   .fadein
+    filter: brightness(80%);
     opacity: 1;
     transition: opacity 1.0s;
     width: 100%;
@@ -153,6 +150,7 @@ export default {
 
 
   .fadeout
+    filter: brightness(80%);
     opacity: 0;
     transition: opacity 1.0s;
     width: 100%;
@@ -174,13 +172,13 @@ export default {
     height: auto;
     .logo
       margin-bottom: 32px;
-      width: 250px;
+      width: 170px;
       height: auto;
       object-fit: cover;
     .title
       text-align: center;
       font-weight: 500;
-      font-size: 32px;
+      font-size: 28px;
       color: #fff;
       text-shadow: 0 3px 4px #222;
   

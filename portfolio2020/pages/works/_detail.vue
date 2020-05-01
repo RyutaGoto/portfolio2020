@@ -122,6 +122,8 @@ export default {
       color: #2d642f;
       font-weight: 700;
     h3
+      line-height: 1.7em;
+      letter-spacing: 0.05em;
       font-size: 16px;
       color: #5a5a5a;
       font-weight: 400;
@@ -141,6 +143,14 @@ export default {
 
   .substance
     flex-basis: 75%;
+  
+  .gallery
+    margin: 24px 0;
+    width: 100%;
+    img
+      margin: 8px 0;
+      width: 100%;
+      object-fit: cover;
   
   .process
     padding: 0px 24px 0 24px;
@@ -208,7 +218,9 @@ export default {
       color: #2d642f;
       font-weight: 700;
     h3
-      font-size: 20px;
+      line-height: 1.5em;
+      letter-spacing: 0.05em;
+      font-size: 18px;
       color: #5a5a5a;
       font-weight: 400;
 

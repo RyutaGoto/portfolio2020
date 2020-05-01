@@ -24,14 +24,6 @@ div
           p.title {{ i.abstract.title }}
           p.category {{ i.abstract.category }}
       Footer
-      //div.footer
-        div.pc-menu
-          nuxt-link(to="/") top
-          p /
-          nuxt-link(to="/works") works
-          p /
-          nuxt-link(to="/about") about
-        p ©2020 RyutaGoto
 
 </template>
 
@@ -120,16 +112,7 @@ export default {
       right: -16%;
       transform: rotate(90deg);
   
-  .footer
-    height: 64px;
-    width: 100%;
-    background-color: #a5926f;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
+
 
 
 @media screen and (min-width: 701px) //複数列

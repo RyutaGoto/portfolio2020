@@ -18,6 +18,15 @@ div.footer
 <style lang="sass" scoped>
 @media screen and (max-width: 700px) //単列
   .footer
+    height: 64px;
+    width: 100%;
+    background-color: #a5926f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
     .pc-menu
       display: none;
 

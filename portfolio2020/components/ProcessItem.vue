@@ -181,6 +181,8 @@ export default {
     &--body
       position: relative;
       p
+        line-height: 1.7em;
+        letter-spacing: 0.05em;
         color: #5a5a5a;
         font-size: 14px;      
         padding: 0 16px 24px 16px;
@@ -347,6 +349,8 @@ export default {
     &--body
       position: relative;
       p
+        line-height: 1.7em;
+        letter-spacing: 0.05em;
         color: #5a5a5a;
         font-size: 18px;      
         padding: 0 16px 24px 16px;
