@@ -189,7 +189,7 @@ export default {
         transition-duration: .6s;
       &:hover
         img
-          opacity: .7;
+          opacity: .5;
           transition: .6s;
     .title
       margin-top: 8px;

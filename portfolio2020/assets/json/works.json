@@ -7,7 +7,7 @@
       "period" : "2019",
       "tools" : "Adobe Xd / Adobe Illustrator / Adobe Lightroom / Nuxt.js / Sass / Firebase",
       "detail" : "大学の講義の一環で集まったデザイナー集団「DesignCaravan」(デザインキャラバン)の紹介Webサイト。制作にあたってのWebサイトのコンセプトから構造、モックアップ、デザイン、実装、公開に至るまでの一連の作業を行った。写真を日々更新するため、コンテンツの追加を行いやすいように工夫も凝らしてある。",
-      "img" : ["/img/caravan_02.jpg", "/img/caravan_03.jpg", "/img/caravan_04.jpg"],
+      "img" : ["/img/caravan_01.jpg", "/img/caravan_02.jpg", "/img/caravan_03.jpg", "/img/caravan_04.jpg"],
       "link" : "/works/caravan"
     },
     "process" : [
@@ -18,17 +18,17 @@
       },
       {
         "subtitle" : "目的、コンセプト",
-        "img" : "/img/caravan_02.jpg",
+        "img" : "/img/caravan_process_01.jpg",
         "detail" : "なぜホームページが欲しいのだろうとメンバーに聞き、またその理由を自分で考えた。また、その考えうる目的にホームページというソリューションは正しいのかも検討した"
       },
       {
         "subtitle" : "必要な要素の洗い出し",
-        "img" : "",
+        "img" : "/img/caravan_process_02.jpg",
         "detail" : "ホームページに必要と予想される要素のリストアップを行いました。自分たちの得意とする分野を示すために作品の写真や紹介、自分たちの素性を明らかにするためチームの概要や大事にしている考え方の紹介、そして人とのコミュニケーションを通じての活動がほとんどであり自分たちのひととなりを知ってもらう必要があると感じたため活動中のスナップショット。これらの列挙した要素をカテゴライズし、ディレクトリに起こしてページの構成を練った。"
       },
       {
         "subtitle" : "プロトタイプの制作",
-        "img" : "/img/caravan_04.jpg",
+        "img" : "/img/caravan_process_03.jpg",
         "detail" : "コンセプトに基づいて見た目のデザインを詰めていった。また、この過程で掲載する写真の編集や、パーツの制作、メンバーや作品の本番用の紹介文を執筆も行った。"
       },
       {
@@ -177,23 +177,23 @@
       "period" : "2018",
       "tools" : "Adobe Illustrator / Arduino",
       "detail" : "私たちの日常は誰かからの恩恵や、自分を支えてくれる何かによって成り立っていることだろう。例えば蛇口をひねれば水が出たり、お金と引き換えに飲食物が提供されたりと…また、今回行う電子工作に欠かせない電気もその一つであると私は捉えた。このように私たちの日常を支えてくれるために当たり前のように存在しているものを軽視しないでほしいという思いを込めて「当たり前のことを当たり前に思わないように」をコンセプトに本作品の制作に取り組んだ。",
-      "img" : ["/img/lamp_01.jpg", "/img/lamp_02.jpg", "/img/lamp_03.jpg", "/img/lamp_04.jpg"],
+      "img" : ["/img/lamp_01.jpg", "/img/lamp_02.jpg", "/img/lamp_03.jpg", "/img/lamp_04.jpg", "/img/lamp_05.jpg"],
       "link" : "/works/lamp"
     },
     "process" : [
       {
         "subtitle" : "アイデアスケッチ",
-        "img" : "",
+        "img" : "/img/lamp_process_01.jpg",
         "detail" : "コンセプトをもとにどのような作品を作るか模索した。普段なれしたしんだ使い心地からかけ離れた体験をしてもらうことを考え、偶然手元にあったテーブルタップがかさなり図のようなアイデアが生まれた。"
       },
       {
         "subtitle" : "1号機制作",
-        "img" : "",
+        "img" : "/img/lamp_process_02.jpg",
         "detail" : "光らせるための仕組みの模索、実装に必要な機器の列挙、筐体のプロトタイピングをそれぞれ行った。"
       },
       {
         "subtitle" : "2号機制作",
-        "img" : "",
+        "img" : "/img/lamp_process_03.jpg",
         "detail" : "1号機で見つかった問題点、改善点を踏まえての制作。特に1号機では電源タップの指し心地に不快感を覚えたためこれの改善にあたった。"
       }
     ]
@@ -220,17 +220,17 @@
       },
       {
         "subtitle" : "数字ユニットのプロトタイプ",
-        "img" : "/img/lixie_04.jpg",
+        "img" : "/img/lixie_process_01.jpg",
         "detail" : "アクリル板に対しての適切な光の当て方、実装方法を模索しながら数字ユニットの制作を行った。"
       },
       {
         "subtitle" : "筐体の組み立て、表面加工",
-        "img" : "/img/lixie_05.jpg",
+        "img" : "/img/lixie_process_02.jpg",
         "detail" : "見た目部分の全体像となる筐体の制作。MDFをレーザーで切り出し、補強用ユニットや表面塗装など適宜行った。"
       },
       {
         "subtitle" : "内部機構の実装",
-        "img" : "/img/lixie_06.jpg",
+        "img" : "/img/lixie_process_03.jpg",
         "detail" : "テープLEDとArduinoを用いて時刻表示するための光り方をするようにコーディング。また、内部の配線をジャンパ線で延長するなどよしなに行った。"
       }
     ]
@@ -252,12 +252,12 @@
     "process" : [
       {
         "subtitle" : "アイデアスケッチ",
-        "img" : "/img/moto_02.jpg",
+        "img" : "/img/moto_process_01.jpg",
         "detail" : "アルファベット26文字を長方形をベースにフォルメした。"
       },
       {
         "subtitle" : "ベクターデータの作成",
-        "img" : "/img/moto_03.jpg",
+        "img" : "/img/moto_process_02.jpg",
         "detail" : "実際のWebサイトに表示された豆腐文字をトレースし、これを削り出してアルファベットを表現。"
       },
       {
