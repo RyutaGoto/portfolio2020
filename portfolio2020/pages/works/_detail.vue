@@ -10,6 +10,11 @@ div
           nuxt-link(to="/")#nav-item top
           nuxt-link(to="/works")#nav-item works
           nuxt-link(to="/about")#nav-item about
+  div.back
+    div#back-drawer
+      nuxt-link(to="/works")
+        i.fas.fa-chevron-left.fa-3x
+  Modal(:imgSrc="postSrc" v-if="showModal" @close="closeModal")
   div.container
     div.thumnail
       p.background-filter
@@ -28,8 +33,10 @@ div
             p.item tools
             p.substance {{ data.abstract.tools }}
         h3 {{ data.abstract.detail }}
+        a(v-if="data.abstract.url" :href="data.abstract.url" target="_blank" rel="noopener").url {{ data.abstract.title }}へ 
+          i.fas.fa-external-link-alt
         div.gallery
-          img(v-for="i in data.abstract.img" :src="i")
+          img(v-for="i in data.abstract.img" :src="i" @click="openModal(i)")
       div.process
         h2 process
         div(v-for="(i, index) in data.process").item
@@ -45,19 +52,24 @@ div
 import Logo from '~/components/Logo.vue'
 import ProcessItem from '~/components/ProcessItem.vue'
 import Footer from '~/components/Footer.vue'
+import Modal from '~/components/Modal.vue'
 import worksData from '~/assets/json/works.json'
+
 
 
 export default {
   components: {
     Logo,
     ProcessItem,
-    Footer
+    Footer,
+    Modal
   },
 
   data(params){
     return{
-      isOpened: false
+      isOpened: false,
+      showModal: false,
+      postSrc: '',
     };
   },
 
@@ -65,6 +77,13 @@ export default {
     accordionToggle: function(){
       this.isOpened = !this.isOpened;
     },
+    openModal(src){
+      this.postSrc = src;
+      this.showModal = true;
+    },
+    closeModal(){
+      this.showModal = false;
+    }
   },
 
   asyncData: async function({params}){
@@ -79,6 +98,8 @@ export default {
 <style lang="sass" scoped>
 
 @media screen and (max-width: 700px) //単列
+  .back
+    display: none;
   .container
     width: 100%;
     height: auto;
@@ -127,6 +148,15 @@ export default {
       font-size: 16px;
       color: #5a5a5a;
       font-weight: 400;
+      margin-bottom: 8px;
+    .url
+      padding: 5px 12px;
+      background-color: #33843f;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 200;
+      text-decoration: none;
+      border-radius: 4px;
 
   .table
     margin: 16px 0 48px 0;
@@ -162,10 +192,39 @@ export default {
   .item:last-child
   //.num:before
     color: blue !important;
+  
 
 
 
 @media screen and (min-width: 701px) //複数列
+  .back
+    position: fixed;
+    z-index: 100;
+    top: 4%;
+    left: 5%;
+    i
+      padding: 8px;
+      color: #ddd;
+      text-shadow: 0 1px 4px #5a5a5a;
+    //#back-drawer
+      position: relative;
+      display: inline-block;
+      &:before
+        content: '';
+        width: 32px;
+        height: 32px;
+        border: 0px;
+        border-top: solid 4px #ddd;
+        border-left: solid 4px #ddd;
+        box-shadow: 0 -1px 4px -2px #5a5a5a;
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -4px;
+
   .container
     width: 100%;
     height: auto;
@@ -223,6 +282,16 @@ export default {
       font-size: 18px;
       color: #5a5a5a;
       font-weight: 400;
+      margin-bottom: 16px;
+    .url
+      padding: 8px;
+      background-color: #33843f;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 200;
+      text-decoration: none;
+      border-radius: 4px;
+
 
   .table
     margin: 16px 0 48px 0;
@@ -241,6 +310,7 @@ export default {
     flex-basis: 75%;
 
   .gallery
+    margin-top: 32px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

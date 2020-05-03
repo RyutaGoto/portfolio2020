@@ -99,6 +99,8 @@ html
     display: block;
     content: '';
     cursor: pointer;
+    box-shadow: 0 1px 4px 0 #5a5a5a;
+
 
 #nav-open
   span:before

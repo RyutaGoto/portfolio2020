@@ -8,7 +8,8 @@
       "tools" : "Adobe Xd / Adobe Illustrator / Adobe Lightroom / Nuxt.js / Sass / Firebase",
       "detail" : "大学の講義の一環で集まったデザイナー集団「DesignCaravan」(デザインキャラバン)の紹介Webサイト。制作にあたってのWebサイトのコンセプトから構造、モックアップ、デザイン、実装、公開に至るまでの一連の作業を行った。写真を日々更新するため、コンテンツの追加を行いやすいように工夫も凝らしてある。",
       "img" : ["/img/caravan_01.jpg", "/img/caravan_02.jpg", "/img/caravan_03.jpg", "/img/caravan_04.jpg"],
-      "link" : "/works/caravan"
+      "link" : "/works/caravan",
+      "url" : "https://designcaravan-60b57.web.app/"
     },
     "process" : [
       {
@@ -50,7 +51,8 @@
       "tools" : "Adobe Illustrator",
       "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回は大手航空機メーカー「蜻蛉.inc」のロゴである。これまで不可能とされていた飛行物体における急旋回や急停止といった動きを実現したのが蜻蛉.incである。そのメカニズムには実際の蜻蛉のありとあらゆる動きを参考にしているとかしていないとか…(この会社は実在するものではありません。)",
       "img" : ["/img/dragonfly_01.png", "/img/dragonfly_02.png", "/img/dragonfly_03.png", "/img/dragonfly_04.png"],
-      "link" : "/works/dragonfly"
+      "link" : "/works/dragonfly",
+      "url" : ""
     },
     "process" : [
       {
@@ -82,7 +84,8 @@
       "tools" : "Adobe Illustrator",
       "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回は開催から10年目を迎える「GOMIBAKO FESTIVAL 2019」のロゴマークである。家の中から施設に至るまで様々な場所に存在するゴミ箱。彼らのおかげで私達はゴミにまみれた生活を送らずに済んでいる。このフェスを機会に我々の生活に多大なる恩恵をもたらすゴミ箱の起源や種類などについて触れてみませんか。(このイベントは実在するものではありません。)",
       "img" : ["/img/gomi_01.png"],
-      "link" : "/works/gomi"
+      "link" : "/works/gomi",
+      "url" : ""
     },
     "process" : [
       {
@@ -114,7 +117,8 @@
       "tools" : "Adobe Illustrator",
       "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回は銀河間を股にかけて活動している停戦監視団「Amethyst」(アメジスト)のロゴマークである。西暦3020年、人類の争いは舞台は地球から宇宙に移った。正義とはいつの時代も自身の何かしらに対する愛から芽生える。この愛に溺れ、本来の目的を見失った権力を鎮めるために停戦監視団「Amethyst」はその力を行使する。",
       "img" : ["/img/amethyst_01.png", "/img/amethyst_02.png", "/img/amethyst_03.png"],
-      "link" : "/works/amethyst"
+      "link" : "/works/amethyst",
+      "url" : ""
     },
     "process" : [
       {
@@ -146,7 +150,8 @@
       "tools" : "Adobe Illustrator",
       "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回は高専生向け学習アプリ「Circuit」(サーキット)のロゴである。中学校から進学したばかりの期待に胸を膨らませる高専1年生。線だけで描かれた回路図に退屈しないよう、彼らが楽しみながら学習できるようにとデザインを凝らした。(このアプリは実在するものではありません。)",
       "img" : ["/img/circuit_01.png", "/img/circuit_02.png"],
-      "link" : "/works/circuit"
+      "link" : "/works/circuit",
+      "url" : ""
     },
     "process" : [
       {
@@ -178,7 +183,8 @@
       "tools" : "Adobe Illustrator / Arduino",
       "detail" : "私たちの日常は誰かからの恩恵や、自分を支えてくれる何かによって成り立っていることだろう。例えば蛇口をひねれば水が出たり、お金と引き換えに飲食物が提供されたりと…また、今回行う電子工作に欠かせない電気もその一つであると私は捉えた。このように私たちの日常を支えてくれるために当たり前のように存在しているものを軽視しないでほしいという思いを込めて「当たり前のことを当たり前に思わないように」をコンセプトに本作品の制作に取り組んだ。",
       "img" : ["/img/lamp_01.jpg", "/img/lamp_02.jpg", "/img/lamp_03.jpg", "/img/lamp_04.jpg", "/img/lamp_05.jpg"],
-      "link" : "/works/lamp"
+      "link" : "/works/lamp",
+      "url" : ""
     },
     "process" : [
       {
@@ -210,7 +216,8 @@
       "tools" : "Adobe Illustrator / Arduino",
       "detail" : "1960 年代までかつて数字や文字を表示するためのデバイスとして世界的に量産されていたニキシー管、その特性ゆえの寿命の短さや高電圧を必要とするためLED の登場と共に衰退の一途を辿った。本作品はそのニキシー管を模してアクリル板とLEDで表現した先駆者の作品Lixie(リキシー)のオマージュ作品である。",
       "img" : ["/img/lixie_01.jpg", "/img/lixie_02.jpg", "/img/lixie_03.jpg", "/img/lixie_04.jpg", "/img/lixie_05.jpg", "/img/lixie_06.jpg"],
-      "link" : "/works/lixie"
+      "link" : "/works/lixie",
+      "url" : ""
     },
     "process" : [
       {
@@ -247,7 +254,8 @@
       "tools" : "Adobe Illustrator",
       "detail" : "\"no more tofu\"をコンセプトにGoogleが2012年に開発したNoto Fontsを見て、「豆腐ってむしろ可愛い形しているし敬遠すべきではないのでは？」と考えた。これを受けて私は実際の文字化けの「豆腐」をベースに\"more tofu\"をコンセプトとしたMoto Fonts(モトフォント)を制作した。最初のバージョンは24時間以内で発案からリリースまでを終えた。",
       "img" : ["/img/moto_01.jpg", "/img/moto_02.jpg", "/img/moto_03.jpg"],
-      "link" : "/works/moto"
+      "link" : "/works/moto",
+      "url" : ""
     },
     "process" : [
       {

@@ -43,11 +43,11 @@ div
         h2 好きなモノ
         p 苔盆栽、食に関すること全般、アイドルマスター、電子工作、フォント、インク
       div.contact
-        a(href="mailto:b1016230@fun.ac.jp" target="_blank")
+        a(href="mailto:b1016230@fun.ac.jp" target="_blank" rel="noopener")
           img(src="/img/contact_mail.png").mail
-        a(href="https://www.facebook.com/gThunderbird" target="_blank")
+        a(href="https://www.facebook.com/gThunderbird" target="_blank" rel="noopener")
           img(src="/img/contact_fb.png").fb
-        a(href="https://suzuri.jp/RickGoto" target="_blank")
+        a(href="https://suzuri.jp/RickGoto" target="_blank" rel="noopener")
           img(src="/img/contact_suzuri.png").suzuri
       Footer
       
