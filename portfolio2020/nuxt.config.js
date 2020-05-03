@@ -49,5 +49,24 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+
+  /*
+  router: {
+    base: '/app/'
+  },
+
+  generate: {
+    routes: [
+      '/works/caravan',
+      '/works/dragonfly',
+      '/works/gomi',
+      '/works/amethyst',
+      '/works/circuit',
+      '/works/lamp',
+      '/works/lixie',
+      '/works/moto'
+    ]
   }
+  */
 }
