@@ -41,6 +41,107 @@
   },
 
 
+  "moto" : {
+    "abstract" : {
+      "thum" : "/img/moto_01.jpg",
+      "title" : "Moto Fonts",
+      "category" : "フォント制作",
+      "period" : "2018",
+      "tools" : "Adobe Illustrator",
+      "detail" : "\"no more tofu\"をコンセプトにGoogleが2012年に開発したNoto Fontsを見て、「豆腐ってむしろ可愛い形しているし敬遠すべきではないのでは？」と考えた。これを受けて私は実際の文字化けの「豆腐」をベースに\"more tofu\"をコンセプトとしたMoto Fonts(モトフォント)を制作した。最初のバージョンは24時間以内で発案からリリースまでを終えた。",
+      "img" : ["/img/moto_01.jpg", "/img/moto_02.jpg", "/img/moto_03.jpg"],
+      "link" : "/works/moto",
+      "url" : ""
+    },
+    "process" : [
+      {
+        "subtitle" : "アイデアスケッチ",
+        "img" : "/img/moto_process_01.jpg",
+        "detail" : "アルファベット26文字を長方形をベースにフォルメした。"
+      },
+      {
+        "subtitle" : "ベクターデータの作成",
+        "img" : "/img/moto_process_02.jpg",
+        "detail" : "実際のWebサイトに表示された豆腐文字をトレースし、これを削り出してアルファベットを表現。"
+      },
+      {
+        "subtitle" : "公開",
+        "img" : "",
+        "detail" : "ttf形式とotf形式に出力し、自分のgithubにて公開した。"
+      }
+    ]
+  },
+
+  
+  "lixie" : {
+    "abstract" : {
+      "thum" : "/img/lixie_01.jpg",
+      "title" : "Lixie",
+      "category" : "電子工作",
+      "period" : "2020",
+      "tools" : "Adobe Illustrator / Arduino",
+      "detail" : "1960 年代までかつて数字や文字を表示するためのデバイスとして世界的に量産されていたニキシー管、その特性ゆえの寿命の短さや高電圧を必要とするためLED の登場と共に衰退の一途を辿った。本作品はそのニキシー管を模してアクリル板とLEDで表現した先駆者の作品Lixie(リキシー)のオマージュ作品である。",
+      "img" : ["/img/lixie_01.jpg", "/img/lixie_02.jpg", "/img/lixie_03.jpg", "/img/lixie_04.jpg", "/img/lixie_05.jpg", "/img/lixie_06.jpg"],
+      "link" : "/works/lixie",
+      "url" : ""
+    },
+    "process" : [
+      {
+        "subtitle" : "全体像の把握",
+        "img" : "",
+        "detail" : "筐体のシステム図、光らせるための機構を紙に書き留めて、タスクの細分化および工数確認を行った。"
+      },
+      {
+        "subtitle" : "数字ユニットのプロトタイプ",
+        "img" : "/img/lixie_process_01.jpg",
+        "detail" : "アクリル板に対しての適切な光の当て方、実装方法を模索しながら数字ユニットの制作を行った。"
+      },
+      {
+        "subtitle" : "筐体の組み立て、表面加工",
+        "img" : "/img/lixie_process_02.jpg",
+        "detail" : "見た目部分の全体像となる筐体の制作。MDFをレーザーで切り出し、補強用ユニットや表面塗装など適宜行った。"
+      },
+      {
+        "subtitle" : "内部機構の実装",
+        "img" : "/img/lixie_process_03.jpg",
+        "detail" : "テープLEDとArduinoを用いて時刻表示するための光り方をするようにコーディング。また、内部の配線をジャンパ線で延長するなどよしなに行った。"
+      }
+    ]
+  },
+
+
+  "lamp" : {
+    "abstract" : {
+      "thum" : "/img/lamp_01.jpg",
+      "title" : "電気を奪う電源タップ",
+      "category" : "電子工作",
+      "period" : "2018",
+      "tools" : "Adobe Illustrator / Arduino",
+      "detail" : "私たちの日常は誰かからの恩恵や、自分を支えてくれる何かによって成り立っていることだろう。例えば蛇口をひねれば水が出たり、お金と引き換えに飲食物が提供されたりと…また、今回行う電子工作に欠かせない電気もその一つであると私は捉えた。このように私たちの日常を支えてくれるために当たり前のように存在しているものを軽視しないでほしいという思いを込めて「当たり前のことを当たり前に思わないように」をコンセプトに本作品の制作に取り組んだ。",
+      "img" : ["/img/lamp_01.jpg", "/img/lamp_02.jpg", "/img/lamp_03.jpg", "/img/lamp_04.jpg", "/img/lamp_05.jpg"],
+      "link" : "/works/lamp",
+      "url" : ""
+    },
+    "process" : [
+      {
+        "subtitle" : "アイデアスケッチ",
+        "img" : "/img/lamp_process_01.jpg",
+        "detail" : "コンセプトをもとにどのような作品を作るか模索した。普段なれしたしんだ使い心地からかけ離れた体験をしてもらうことを考え、偶然手元にあったテーブルタップがかさなり図のようなアイデアが生まれた。"
+      },
+      {
+        "subtitle" : "1号機制作",
+        "img" : "/img/lamp_process_02.jpg",
+        "detail" : "光らせるための仕組みの模索、実装に必要な機器の列挙、筐体のプロトタイピングをそれぞれ行った。"
+      },
+      {
+        "subtitle" : "2号機制作",
+        "img" : "/img/lamp_process_03.jpg",
+        "detail" : "1号機で見つかった問題点、改善点を踏まえての制作。特に1号機では電源タップの指し心地に不快感を覚えたためこれの改善にあたった。"
+      }
+    ]
+  },
+
+
 
   "dragonfly" : {
     "abstract" : {
@@ -168,110 +269,6 @@
         "subtitle" : "制作",
         "img" : "",
         "detail" : "電気回路の難しいイメージを払拭、かつ「電子工作に応用できれば楽しいことがたくさんある」という楽しみの可能性を秘めていることを表す色使いを心がけた。"
-      }
-    ]
-  },
-
-
-  
-  "lamp" : {
-    "abstract" : {
-      "thum" : "/img/lamp_01.jpg",
-      "title" : "電気を奪う電源タップ",
-      "category" : "電子工作",
-      "period" : "2018",
-      "tools" : "Adobe Illustrator / Arduino",
-      "detail" : "私たちの日常は誰かからの恩恵や、自分を支えてくれる何かによって成り立っていることだろう。例えば蛇口をひねれば水が出たり、お金と引き換えに飲食物が提供されたりと…また、今回行う電子工作に欠かせない電気もその一つであると私は捉えた。このように私たちの日常を支えてくれるために当たり前のように存在しているものを軽視しないでほしいという思いを込めて「当たり前のことを当たり前に思わないように」をコンセプトに本作品の制作に取り組んだ。",
-      "img" : ["/img/lamp_01.jpg", "/img/lamp_02.jpg", "/img/lamp_03.jpg", "/img/lamp_04.jpg", "/img/lamp_05.jpg"],
-      "link" : "/works/lamp",
-      "url" : ""
-    },
-    "process" : [
-      {
-        "subtitle" : "アイデアスケッチ",
-        "img" : "/img/lamp_process_01.jpg",
-        "detail" : "コンセプトをもとにどのような作品を作るか模索した。普段なれしたしんだ使い心地からかけ離れた体験をしてもらうことを考え、偶然手元にあったテーブルタップがかさなり図のようなアイデアが生まれた。"
-      },
-      {
-        "subtitle" : "1号機制作",
-        "img" : "/img/lamp_process_02.jpg",
-        "detail" : "光らせるための仕組みの模索、実装に必要な機器の列挙、筐体のプロトタイピングをそれぞれ行った。"
-      },
-      {
-        "subtitle" : "2号機制作",
-        "img" : "/img/lamp_process_03.jpg",
-        "detail" : "1号機で見つかった問題点、改善点を踏まえての制作。特に1号機では電源タップの指し心地に不快感を覚えたためこれの改善にあたった。"
-      }
-    ]
-  },
-
-
-  
-  "lixie" : {
-    "abstract" : {
-      "thum" : "/img/lixie_01.jpg",
-      "title" : "Lixie",
-      "category" : "電子工作",
-      "period" : "2020",
-      "tools" : "Adobe Illustrator / Arduino",
-      "detail" : "1960 年代までかつて数字や文字を表示するためのデバイスとして世界的に量産されていたニキシー管、その特性ゆえの寿命の短さや高電圧を必要とするためLED の登場と共に衰退の一途を辿った。本作品はそのニキシー管を模してアクリル板とLEDで表現した先駆者の作品Lixie(リキシー)のオマージュ作品である。",
-      "img" : ["/img/lixie_01.jpg", "/img/lixie_02.jpg", "/img/lixie_03.jpg", "/img/lixie_04.jpg", "/img/lixie_05.jpg", "/img/lixie_06.jpg"],
-      "link" : "/works/lixie",
-      "url" : ""
-    },
-    "process" : [
-      {
-        "subtitle" : "全体像の把握",
-        "img" : "",
-        "detail" : "筐体のシステム図、光らせるための機構を紙に書き留めて、タスクの細分化および工数確認を行った。"
-      },
-      {
-        "subtitle" : "数字ユニットのプロトタイプ",
-        "img" : "/img/lixie_process_01.jpg",
-        "detail" : "アクリル板に対しての適切な光の当て方、実装方法を模索しながら数字ユニットの制作を行った。"
-      },
-      {
-        "subtitle" : "筐体の組み立て、表面加工",
-        "img" : "/img/lixie_process_02.jpg",
-        "detail" : "見た目部分の全体像となる筐体の制作。MDFをレーザーで切り出し、補強用ユニットや表面塗装など適宜行った。"
-      },
-      {
-        "subtitle" : "内部機構の実装",
-        "img" : "/img/lixie_process_03.jpg",
-        "detail" : "テープLEDとArduinoを用いて時刻表示するための光り方をするようにコーディング。また、内部の配線をジャンパ線で延長するなどよしなに行った。"
-      }
-    ]
-  },
-
-
-  
-  "moto" : {
-    "abstract" : {
-      "thum" : "/img/moto_01.jpg",
-      "title" : "Moto Fonts",
-      "category" : "フォント制作",
-      "period" : "2018",
-      "tools" : "Adobe Illustrator",
-      "detail" : "\"no more tofu\"をコンセプトにGoogleが2012年に開発したNoto Fontsを見て、「豆腐ってむしろ可愛い形しているし敬遠すべきではないのでは？」と考えた。これを受けて私は実際の文字化けの「豆腐」をベースに\"more tofu\"をコンセプトとしたMoto Fonts(モトフォント)を制作した。最初のバージョンは24時間以内で発案からリリースまでを終えた。",
-      "img" : ["/img/moto_01.jpg", "/img/moto_02.jpg", "/img/moto_03.jpg"],
-      "link" : "/works/moto",
-      "url" : ""
-    },
-    "process" : [
-      {
-        "subtitle" : "アイデアスケッチ",
-        "img" : "/img/moto_process_01.jpg",
-        "detail" : "アルファベット26文字を長方形をベースにフォルメした。"
-      },
-      {
-        "subtitle" : "ベクターデータの作成",
-        "img" : "/img/moto_process_02.jpg",
-        "detail" : "実際のWebサイトに表示された豆腐文字をトレースし、これを削り出してアルファベットを表現。"
-      },
-      {
-        "subtitle" : "公開",
-        "img" : "",
-        "detail" : "ttf形式とotf形式に出力し、自分のgithubにて公開した。"
       }
     ]
   }

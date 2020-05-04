@@ -38,6 +38,12 @@ export default {
     Footer
   },
 
+  head(){
+    return{
+      title: 'works'
+    }
+  },
+
   data(){
     return{
       data: worksData
@@ -93,7 +99,6 @@ export default {
     box-shadow: 0 -5px 6px #707070;
 
   .contents-list
-    position: relative
     margin-bottom: 64px;
     img
       width: 248px;
@@ -107,11 +112,6 @@ export default {
       font-size: 14px;
       font-weight: 500;
       color: #777;
-      position: absolute;
-      top: 15%;
-      right: -16%;
-      transform: rotate(90deg);
-  
 
 
 

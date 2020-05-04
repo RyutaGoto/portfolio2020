@@ -62,6 +62,12 @@ export default {
   components: {
     Logo,
     Footer
+  },
+
+  head(){
+    return{
+      title: 'about'
+    }
   }
 }
 </script>

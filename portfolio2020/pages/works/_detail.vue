@@ -65,6 +65,12 @@ export default {
     Modal
   },
 
+  head(){
+    return{
+      title: this.data.abstract.title
+    }
+  },
+
   data(params){
     return{
       isOpened: false,

@@ -34,6 +34,13 @@ export default {
     //Logo
   },
 
+  head(){
+    return{
+      title: 'RyutaGoto`s Portfolio',
+      titleTemplate: ''
+    }
+  },
+
   data(){
     return{
       index: 0
@@ -123,7 +130,7 @@ export default {
     a
       color: #fff;
       font-weight: 400;
-      font-size: 24px;
+      font-size: 26px;
       text-shadow: 0 3px 4px #222;
       padding-bottom: 0.1px;
       text-decoration: none;
@@ -172,7 +179,7 @@ export default {
     height: auto;
     .logo
       margin-bottom: 32px;
-      width: 170px;
+      width: 200px;
       height: auto;
       object-fit: cover;
     .title
