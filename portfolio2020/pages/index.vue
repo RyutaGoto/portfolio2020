@@ -5,6 +5,8 @@ div
         input(type="checkbox")#nav-input.nav-unshown
         label(for="nav-input")#nav-open
           span
+          span
+          span
         label(for="nav-input")#nav-close.nav-unshown
         div#nav-content
           nuxt-link(to="/")#nav-item top

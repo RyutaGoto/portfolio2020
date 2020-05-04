@@ -69,7 +69,7 @@ html
   position: fixed;
   z-index: 100;
   top: 5%;
-  right: 10%;
+  right: 8%;
 
 #nav-drawer
   position: relative;
@@ -80,18 +80,13 @@ html
   display: none;
 
 
-/*アイコンのスペース*/
-#nav-open
-  display: inline-block;
-  width: 30px;
-  height: 22px;
-  vertical-align: middle;
-
-
-/*ハンバーガーアイコンをCSSだけで表現*/
-#nav-open
-  span, span:before, span:after
-    position: absolute;
+#nav-open /*アイコンのスペース*/
+  width: 40px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  span  /*ハンバーガーアイコンをCSSだけで表現*/
     height: 4px;/*線の太さ*/
     width: 40px;/*長さ*/
     border-radius: 3px;
@@ -102,13 +97,6 @@ html
     box-shadow: 0 1px 4px 0 #5a5a5a;
 
 
-#nav-open
-  span:before
-    bottom: -10px;
-
-#nav-open
-  span:after
-    bottom: -20px;
 
 
 /*閉じる用の薄黒カバー*/
@@ -173,9 +161,13 @@ html
 
 
 @media screen and (min-width: 701px) //複数列
-  #nav-open
-    span, span:before, span:after
-      position: absolute;
+  #nav-open /*アイコンのスペース*/
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 35px;
+    justify-content: space-between;
+    span  /*ハンバーガーアイコンをCSSだけで表現*/
       height: 5px;/*線の太さ*/
       width: 48px;/*長さ*/
       border-radius: 3px;
@@ -184,13 +176,5 @@ html
       content: '';
       cursor: pointer;
       box-shadow: 0 1px 4px 0 #5a5a5a;
-
-  #nav-open
-    span:before
-      bottom: -15px;
-
-  #nav-open
-    span:after
-      bottom: -30px;
 
 </style>
