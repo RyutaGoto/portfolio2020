@@ -167,6 +167,8 @@ html
     width: 48px;
     height: 35px;
     justify-content: space-between;
+    &:hover
+      cursor: pointer;
     span  /*ハンバーガーアイコンをCSSだけで表現*/
       height: 5px;/*線の太さ*/
       width: 48px;/*長さ*/
