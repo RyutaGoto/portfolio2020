@@ -7,11 +7,17 @@ export default {
   head: {
     //title: process.env.npm_package_name || '',
     //title: '',
-    titleTemplate: '%s | RyutaGoto`s Portfolio',
+    titleTemplate: '%s | RyutaGoto\'s Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'RyutaGoto\'s Portfolio' },
+      { hid: 'og:site_name', property: 'og:site_name', content: '後藤隆太のポートフォリオサイト' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://ryutagoto.space' },
+      //{ hid: 'og:title', property: 'og:title', content: 'サイト名' },
+      //{ hid: 'og:description', property: 'og:description', content: '共通ディスクリプション' },
+      { hid: 'og:image', property: 'og:image', content: "/img/thumnail.png"},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/RyutaGoto.ico' },
