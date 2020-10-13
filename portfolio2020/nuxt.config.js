@@ -63,6 +63,12 @@ export default {
   router: {
     base: '/'
   },
+
+  server: {
+    port: 8000, // デフォルト: 3000
+    //host: '0.0.0.0' // デフォルト: localhost
+  }
+
   /*
   generate: {
     routes: [
