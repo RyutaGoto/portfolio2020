@@ -23,10 +23,10 @@ div
         div.name
           p 後藤隆太 | RyutaGoto
         div.category
-          p 公立はこだて未来大学　学部4年生
-          p 1997年生まれ
+          //p ヒト
+          //p 1997年生まれ
       div.introduction
-        p 1997年宮城県生まれ。幼少期をアメリカで過ごす。帰国後、小中学校を経て地元の仙台高等専門学校に入学。在学中に抱いたデザイン領域に対する興味から卒業後は公立はこだて未来大学に編入。現在は同大学の4年生として在籍。
+        p 1997年宮城県生まれ。幼少期をアメリカで過ごす。帰国後、小中学校を経て地元の仙台高等専門学校に入学。在学中に抱いたデザイン領域に対する興味から卒業後は公立はこだて未来大学に編入。2021年3月に同大学を卒業。
       div.biography
         div.top
           div.subtitle
@@ -44,15 +44,15 @@ div
             p ・UIやロゴなどのグラフィックデザイン
             p ・Webのview関連の設計から実装まで
             p ・電子工作を用いた作品制作
-            p (ツール：Illustrator、Photoshop、Xd、HTML / CSS、Vue.js、Arduino)
+            p (ツール：Illustrator、Photoshop、Xd、HTML/CSS、Vue.js、Arduino)
           div.subtitle
             h2 好きなモノ
             p ・苔盆栽
+            p　.陶芸
             p ・食に関すること全般
             p ・アイドルマスター
             p ・電子工作
             p ・文字(主にフォント)
-            p ・インク
       div.contact
         a(href="mailto:b1016230@fun.ac.jp" target="_blank")
           img(src="/img/contact_mail.png").mail
