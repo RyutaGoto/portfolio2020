@@ -1,4 +1,256 @@
 {
+  "interpretation" : {
+    "abstract" : {
+      "thum" : "/img/interpretation_01.jpg",
+      "title" : "合同作品展「解釈の相対性」",
+      "category" : "イベント",
+      "period" : "2021",
+      "tools" : "やる気、努力、根性、周りの人の優しさ",
+      "detail" : "函館の学生、後藤隆太と吉田拓夢による合同作品展である。本合同展は、「果たして人は、目の前で起こる事象そのものに目を向けられているのか」「自己の解釈のみによって認知してはいないだろうか」という疑念、疑問に対して声を上げるべく開催した作品展である。",
+      "img" : ["/img/interpretation_02.jpg", "/img/interpretation_03.jpg", "/img/interpretation_04.jpg", "/img/interpretation_05.jpg", "/img/interpretation_06.jpg"],
+      "link" : "/works/interpretation",
+      "url" : "https://twitter.com/yoskasu_"
+    },
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }
+    ]
+  },
+  
+  
+  "interpretationlogo" : {
+    "abstract" : {
+      "thum" : "/img/interpretationlogo_01.jpg",
+      "title" : "合同作品展 ロゴ",
+      "category" : "ロゴ制作",
+      "period" : "2021",
+      "tools" : "Adobe Illustrator",
+      "detail" : "",
+      "img" : ["/img/interpretationlogo_01.jpg", "/img/interpretationlogo_02.jpg", "/img/interpretationlogo_03.jpg"],
+      "link" : "/works/interpretationlogo",
+      "url" : ""
+    },  
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }  
+    ]  
+  },  
+  
+
+  "junk" : {
+    "abstract" : {
+      "thum" : "/img/junk_01.jpg",
+      "title" : "JUNK盆栽",
+      "category" : "アート作品",
+      "period" : "2021",
+      "tools" : "電動ろくろ、灯油窯",
+      "detail" : "自然界に存在する風景、環境、概念をそのまま切り取り、器の上に組み立てていくことが盆栽のルーツのひとつとして挙げられている。これに対し、本作品では寿命を迎えて価値を失ったラップトップの部品や苔を使って、それぞれが役割を持つ、新しくも小さな世界を構築している。「盆栽」が持つ本来の意図に反するこの作品をあなたは何と呼ぶだろうか。",
+      "img" : ["/img/junk_01.jpg", "/img/junk_02.jpg", "/img/junk_03.jpg", "/img/junk_04.jpg", "/img/junk_05.jpg"],
+      "link" : "/works/junk",
+      "url" : ""
+    },  
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }  
+    ]  
+  },  
+  
+
+  "mintjulep" : {
+    "abstract" : {
+      "thum" : "/img/mintjulep_01.jpg",
+      "title" : "mint julep",
+      "category" : "ロゴ制作",
+      "period" : "2020",
+      "tools" : "Adobe Illustrator",
+      "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回はバーボンをベースとしたカクテル、ミントジュレップのロゴマーク。美味しいお店で飲むチャンスがあった僕ではあったが、車で来ていたため飲めなかった時の虚無感を糧に制作した。美味しそうだったよとっても。",
+      "img" : ["/img/mintjulep_01.jpg"],
+      "link" : "/works/mintjulep",
+      "url" : ""
+    },
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }
+    ]
+  },
+  
+
+  "tsuyu" : {
+    "abstract" : {
+      "thum" : "/img/tsuyu_01.jpg",
+      "title" : "露 -つゆ-",
+      "category" : "ロゴ制作",
+      "period" : "2020",
+      "tools" : "Adobe Illustrator",
+      "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回は2020年に創設された酒蔵「露」のブランドロゴである。こちらでのお酒は、露草の咲き始めから萎むまでの儚さのような澄んだ味わいでお酒が苦手な方でも楽しめるお酒となっている。そういうの本当にあるなら飲んでみたいけどこの露は存在しないんだなあ。(この団体は実在するものではありません。)",
+      "img" : ["/img/tsuyu_01.jpg"],
+      "link" : "/works/tsuyu",
+      "url" : ""
+    },
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }
+    ]
+  },
+  
+
+  "tamanegi" : {
+    "abstract" : {
+      "thum" : "/img/tamanegi_01.jpg",
+      "title" : "玉ねぎ同好会",
+      "category" : "ロゴ制作",
+      "period" : "2020",
+      "tools" : "Adobe Illustrator",
+      "detail" : "実在しない団体やサービス、物語などを想像しながら作るロゴマーク。今回は全国38ヶ所で活動をしている玉ねぎ同好会のロゴマークである。玉ねぎを食べることはもちろんのこと、いかにして効果的に人を玉ねぎで泣かせることができるかを日々探求している団体である。(この団体は実在するものではありません。)",
+      "img" : ["/img/tamanegi_01.jpg", "/img/tamanegi_02.jpg"],
+      "link" : "/works/tamanegi",
+      "url" : ""
+    },
+    "process" : [
+      {
+        "subtitle" : "きっかけ",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "目的、コンセプト",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "必要な要素の洗い出し",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "プロトタイプの制作",
+        "img" : "",
+        "detail" : ""
+      },
+      {
+        "subtitle" : "実装",
+        "img" : "",
+        "detail" : ""
+      }
+    ]
+  },
+  
+  
   "caravan" : {
     "abstract" : {
       "thum" : "/img/caravan_01.jpg",

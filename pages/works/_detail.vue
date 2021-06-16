@@ -40,8 +40,8 @@ div
         div.gallery
           img(v-for="i in data.abstract.img" :src="i" @click="openModal(i)")
       div.process
-        h2 process
-        div(v-for="(i, index) in data.process").item
+        //h2 process
+        //div(v-for="(i, index) in data.process").item
           ProcessItem(:title="i.subtitle", :imgSrc="i.img", :detail="i.detail", :number="index+1")
       Footer
       //div.footer
