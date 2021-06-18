@@ -44,6 +44,7 @@ div
             p ・UIやロゴなどのグラフィックデザイン
             p ・Webのview関連の設計から実装まで
             p ・電子工作を用いた作品制作
+            p ・パッケージデザインやポスターなどの印刷物
             p (ツール：Illustrator、Photoshop、Xd、HTML/CSS、Vue.js、Arduino)
           div.subtitle
             h2 好きなモノ

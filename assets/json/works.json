@@ -1,4 +1,88 @@
 {
+   
+
+  "biobacon" : {
+    "abstract" : {
+      "thum" : "/img/biobacon_01.jpg",
+      "title" : "BioBacon",
+      "category" : "印刷物",
+      "period" : "2021",
+      "tools" : "Illustrator",
+      "detail" : "株式会社WiseMan's FPLが製造する無添加ベーコン「BioBacon」のパッケージデザインを担当した。",
+      "img" : ["/img/biobacon_01.jpg", "/img/biobacon_02.jpg"],
+      "link" : "/works/biobacon",
+      "url" : ""
+    },  
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }  
+    ]  
+  },  
+  
+   
+
+  "bresaola" : {
+    "abstract" : {
+      "thum" : "/img/bresaola_01.jpg",
+      "title" : "Bresaola Affumicata",
+      "category" : "印刷物",
+      "period" : "2021",
+      "tools" : "Illustrator",
+      "detail" : "株式会社WiseMan's FPLが製造する鹿肉のベーコン「Bresaola Affumicata」のパッケージデザインを担当した。",
+      "img" : ["/img/bresaola_01.jpg", "/img/bresaola_02.jpg"],
+      "link" : "/works/bresaola",
+      "url" : ""
+    },  
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }  
+    ]  
+  },  
+  
+   
+
+  "kamo" : {
+    "abstract" : {
+      "thum" : "/img/kamo_01.jpg",
+      "title" : "燻製鴨",
+      "category" : "印刷物",
+      "period" : "2021",
+      "tools" : "Illustrator",
+      "detail" : "株式会社WiseMan's FPLが製造する「燻製鴨」のパッケージデザインを担当した。",
+      "img" : ["/img/kamo_01.jpg", "/img/kamo_02.jpg"],
+      "link" : "/works/kamo",
+      "url" : ""
+    },  
+    "process" : [
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      },  
+      {
+        "subtitle" : "",
+        "img" : "",
+        "detail" : ""
+      }  
+    ]  
+  },  
+  
   "interpretation" : {
     "abstract" : {
       "thum" : "/img/interpretation_01.jpg",
@@ -6,32 +90,12 @@
       "category" : "イベント",
       "period" : "2021",
       "tools" : "やる気、努力、根性、周りの人の優しさ",
-      "detail" : "函館の学生、後藤隆太と吉田拓夢による合同作品展である。本合同展は、「果たして人は、目の前で起こる事象そのものに目を向けられているのか」「自己の解釈のみによって認知してはいないだろうか」という疑念、疑問に対して声を上げるべく開催した作品展である。",
+      "detail" : "函館の学生、後藤隆太と吉田拓夢による合同作品展である。本合同展は、「果たして人は、目の前で起こる事象そのものに目を向けられているのか」「自己の解釈のみによって認知してはいないだろうか」という疑念、疑問に対して声を上げるべく開催した作品展である。※2021/3/27 ~ 2021/4/3開催",
       "img" : ["/img/interpretation_02.jpg", "/img/interpretation_03.jpg", "/img/interpretation_04.jpg", "/img/interpretation_05.jpg", "/img/interpretation_06.jpg"],
       "link" : "/works/interpretation",
       "url" : "https://twitter.com/yoskasu_"
     },
     "process" : [
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
       {
         "subtitle" : "",
         "img" : "",
@@ -58,27 +122,29 @@
         "subtitle" : "",
         "img" : "",
         "detail" : ""
-      },  
+      }
+    ]  
+  },  
+  
+
+  "interpretposter" : {
+    "abstract" : {
+      "thum" : "/img/interpretposter_01.jpg",
+      "title" : "合同作品展 告知ポスター",
+      "category" : "印刷物",
+      "period" : "2021",
+      "tools" : "Adobe Illustrator",
+      "detail" : "合同作品展 「解釈の相対性」の告知用ポスターである。展示会名に使用されており、本展のキーワードでもある「解釈」。人によって捉え方は千差万別である、ということを立体物の盆栽と見え隠れする文字によって表現した。",
+      "img" : ["/img/interpretposter_01.jpg", "/img/interpretposter_02.jpg", "/img/interpretposter_03.jpg"],
+      "link" : "/works/interpretposter",
+      "url" : ""
+    },  
+    "process" : [
       {
         "subtitle" : "",
         "img" : "",
         "detail" : ""
-      },  
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },  
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },  
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      }  
+      }
     ]  
   },  
   
@@ -100,27 +166,29 @@
         "subtitle" : "",
         "img" : "",
         "detail" : ""
-      },  
+      }
+    ]  
+  },  
+   
+
+  "coffeticket" : {
+    "abstract" : {
+      "thum" : "/img/coffeticket_01.jpg",
+      "title" : "豆宝堂 コーヒーチケット",
+      "category" : "印刷物",
+      "period" : "2020",
+      "tools" : "Illustrator",
+      "detail" : "北斗市にある自家焙煎珈琲屋「豆宝堂」のコーヒーチケットのデザインを担当した。",
+      "img" : ["/img/coffeticket_01.jpg", "/img/coffeticket_02.jpg"],
+      "link" : "/works/coffeticket",
+      "url" : ""
+    },  
+    "process" : [
       {
         "subtitle" : "",
         "img" : "",
         "detail" : ""
-      },  
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },  
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },  
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      }  
+      }
     ]  
   },  
   
@@ -138,26 +206,6 @@
       "url" : ""
     },
     "process" : [
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
       {
         "subtitle" : "",
         "img" : "",
@@ -180,26 +228,6 @@
       "url" : ""
     },
     "process" : [
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
-      {
-        "subtitle" : "",
-        "img" : "",
-        "detail" : ""
-      },
       {
         "subtitle" : "",
         "img" : "",
