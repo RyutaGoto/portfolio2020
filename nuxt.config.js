@@ -17,10 +17,10 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://ryutagoto.space' },
       //{ hid: 'og:title', property: 'og:title', content: 'サイト名' },
       //{ hid: 'og:description', property: 'og:description', content: '共通ディスクリプション' },
-      { hid: 'og:image', property: 'og:image', content: "/img/thumnail.png"},
+      { hid: 'og:image', property: 'og:image', content: "/portfolio/img/thumnail.png"},
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/RyutaGoto.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/portfolio/RyutaGoto.ico' },
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css'}
     ]
   },

@@ -57,7 +57,7 @@ async function createApp (ssrContext) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"%s | RyutaGoto's Portfolio","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"RyutaGoto's Portfolio"},{"hid":"og:site_name","property":"og:site_name","content":"後藤隆太のポートフォリオサイト"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:url","property":"og:url","content":"https:\u002F\u002Fryutagoto.space"},{"hid":"og:image","property":"og:image","content":"\u002Fimg\u002Fthumnail.png"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002FRyutaGoto.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.6.1\u002Fcss\u002Fall.css"}],"style":[],"script":[]},
+    head: {"titleTemplate":"%s | RyutaGoto's Portfolio","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"RyutaGoto's Portfolio"},{"hid":"og:site_name","property":"og:site_name","content":"後藤隆太のポートフォリオサイト"},{"hid":"og:type","property":"og:type","content":"website"},{"hid":"og:url","property":"og:url","content":"https:\u002F\u002Fryutagoto.space"},{"hid":"og:image","property":"og:image","content":"\u002Fportfolio\u002Fimg\u002Fthumnail.png"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fportfolio\u002FRyutaGoto.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.6.1\u002Fcss\u002Fall.css"}],"style":[],"script":[]},
 
     store,
     router,
