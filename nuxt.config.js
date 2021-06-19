@@ -61,7 +61,7 @@ export default {
 
   
   router: {
-    base: '/portfolio2020/'
+    base: '/portfolio/'
   },
 
   server: {
