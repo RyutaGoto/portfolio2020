@@ -15,7 +15,7 @@ div
   div.container
     div.thumnail
       p.background-filter
-        img(src="/portfolio/img/moss_01.jpg").background
+        img(src="/img/moss_01.jpg").background
       h1 works
     div.contents
       div.content-list-wrap

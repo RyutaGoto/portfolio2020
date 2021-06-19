@@ -15,11 +15,11 @@ div
   div.container
     div.thumnail
       p.background-filter
-        img(src="/portfolio/img/moss_02.jpg").background
+        img(src="/img/moss_02.jpg").background
       h1 about
     div.contents
       div.profile-wrap
-        img(src="/portfolio/img/profile.jpg").profile
+        img(src="/img/profile.jpg").profile
         div.name
           p 後藤隆太 | RyutaGoto
         div.category
@@ -56,11 +56,11 @@ div
             p ・文字(主にフォント)
       div.contact
         a(href="mailto:b1016230@fun.ac.jp" target="_blank")
-          img(src="/portfolio/img/contact_mail.png").mail
+          img(src="/img/contact_mail.png").mail
         a(href="https://www.facebook.com/gThunderbird" target="_blank")
-          img(src="/portfolio/img/contact_fb.png").fb
+          img(src="/img/contact_fb.png").fb
         a(href="https://suzuri.jp/RickGoto" target="_blank")
-          img(src="/portfolio/img/contact_suzuri.png").suzuri
+          img(src="/img/contact_suzuri.png").suzuri
       Footer
       
 

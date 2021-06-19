@@ -15,10 +15,10 @@ div
   div.container
     div#app
       p.background-filter
-        img(src="/portfolio/img/moss_01.jpg").background.slideshow
-        img(src="/portfolio/img/moss_02.jpg").background.slideshow.fadeout
-        img(src="/portfolio/img/moss_03.jpg").background.slideshow.fadeout
-        img(src="/portfolio/img/moss_04.jpg").background.slideshow.fadeout
+        img(src="/img/moss_01.jpg").background.slideshow
+        img(src="/img/moss_02.jpg").background.slideshow.fadeout
+        img(src="/img/moss_03.jpg").background.slideshow.fadeout
+        img(src="/img/moss_04.jpg").background.slideshow.fadeout
 
     div.symbol
       img(src="~/assets/logo_clear(500×500).png").logo
