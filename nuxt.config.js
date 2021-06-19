@@ -61,16 +61,17 @@ export default {
 
   
   router: {
-    base: '/'
+    base: '/portfolio2020/'
   },
 
   server: {
     port: 8000, // デフォルト: 3000
     //host: '0.0.0.0' // デフォルト: localhost
-  }
+  },
 
-  /*
   generate: {
+    dir: 'docs'
+    /*
     routes: [
       '/works/caravan',
       '/works/dragonfly',
@@ -81,6 +82,6 @@ export default {
       '/works/lixie',
       '/works/moto'
     ]
+    */
   }
-  */
 }
